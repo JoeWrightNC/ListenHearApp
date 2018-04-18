@@ -1,1 +1,1 @@
-window.location.href = "https://accounts.spotify.com/authorize?client_id=1e125ff51c9d4c7bafaa622b37029ce2&response_type=token&redirect_uri=https:%2F%2Fjoewrightnc.github.io%2FListenHearApp%2FindexReal&scope=user-read-private";
+window.location.href = "https://accounts.spotify.com/authorize?client_id=1e125ff51c9d4c7bafaa622b37029ce2&response_type=token&redirect_uri=https://joewrightnc.github.io/ListenHearApp/indexReal&scope=user-read-private";
