@@ -291,7 +291,7 @@ $("#launch-button").on("click", function () {
     setTimeout(function () {
       bounceOut("#loadingPage")
       bounceIn('#sort-page');
-    }, 6000)
+    }, 7500)
   }
 })
 
