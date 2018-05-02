@@ -3,28 +3,40 @@
     display:none;
 }
 
+@font-face {
+    font-family: ListenHearLogo;
+    src: url("../fonts/ListenHearLogo.otf");
+}
+
 .appTitle {
-    font-family: 'Fredericka the Great', cursive;
-    text-shadow: 1px 1px 4px darkslategray;
+    font-family: "ListenHearLogo";
+    text-shadow: 1px 1px 4px white;
     font-weight:500;
-    font-size:5em;
+    font-size:6em;
 }
 
 section{
-    margin-top:5vh;
-}
-/* width-mod might be able to go under section */
-.width-mod{
-    width: 91%;
+    margin-top:10vh;
 }
 
+.width-mod {
+    margin-top:10vh !important;
+    width:60vw !important;
+}
+
+.formHeader {
+    color:white;
+    text-shadow: 1px 1px 4px black;
+}
 body{
     font-family: 'Lato', sans-serif;
     text-align:center;
     width:100vw;
     min-height:100vh;
     max-height:100%;
-    background:linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    background-image: url("../images/newBackground.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat
 }
 
 .container{
