@@ -10,7 +10,8 @@
 
 .appTitle {
     font-family: "ListenHearLogo";
-    text-shadow: 1px 1px 4px white;
+    text-shadow: 1px 1px 4px black;
+    color:white;
     font-weight:500;
     font-size:6em;
 }
@@ -35,7 +36,7 @@ body{
     min-height:100vh;
     max-height:100%;
     background-image: url("../images/newBackground.jpg");
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat
 }
 
@@ -46,6 +47,12 @@ body{
 .btn-group{
     margin: 5vh 0;
 }
+
+#launch-button {
+    background-color:transparent !important;
+    text-shadow: 1px 1px 4px black;
+  }
+  
 
 /* dropdown list border radius hack */
 .no-border-radius{
@@ -77,7 +84,7 @@ body{
     height:auto;
   }
   
-  
+
   /* ---- .grid-item ---- */
   
   .grid-item {
@@ -87,10 +94,14 @@ body{
     border-color: hsla(0, 0%, 0%, 0.7);
   }
 
+#loadingPage {
+    margin-top:0px !important;
+    height:100vh
+}
+
 #loadingImg {
-    height:50vh;
+    height:100%;
     width:auto;
-    margin-top:25vh;
 }
 
 #sort-options-wrapper-sm{
@@ -116,6 +127,7 @@ body{
 #finalPage {
     width: 80%;
     margin: auto;
+    padding-top:10vh;
 }
 
 #googleMap img{
